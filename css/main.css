@@ -776,6 +776,34 @@ body main .page05 {
   height: 100vh;
   margin: 50px;
 }
+body main .page05 .project_ex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .page05 .project_ex .ex_left,
+body main .page05 .project_ex .ex_right {
+  padding: 120px 20px;
+  text-align: center;
+}
+body main .page05 .project_ex .ex_left a img,
+body main .page05 .project_ex .ex_right a img {
+  box-shadow: 1px 3px 4px 0px gray;
+  border-radius: 15px;
+  width: 100%;
+}
+body main .page05 .project_ex .ex_left h4,
+body main .page05 .project_ex .ex_right h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0 0;
+}
+body main .page05 .project_ex .ex_left p,
+body main .page05 .project_ex .ex_right p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b9b9b9;
+}
 body main .page06 {
   height: 100vh;
   margin: 50px;
@@ -903,10 +931,12 @@ body main .page06 .contact_group .contact .message h4 {
     margin-top: 30px;
     text-align: left;
   }
-  body main .page01 .content .btn .btn_about, body main .page01 .content .btn .btn_works {
+  body main .page01 .content .btn .btn_about,
+  body main .page01 .content .btn .btn_works {
     margin: 0;
   }
-  body main .page01 .content .btn .btn_about h3, body main .page01 .content .btn .btn_works h3 {
+  body main .page01 .content .btn .btn_about h3,
+  body main .page01 .content .btn .btn_works h3 {
     font-size: 12px;
   }
   body main .page02 {
@@ -929,14 +959,19 @@ body main .page06 .contact_group .contact .message h4 {
   body main .page02 .about .about_right .about_text p {
     font-size: 12px;
   }
-  body main .page02 .about .about_right .about_tag .tag_top, body main .page02 .about .about_right .about_tag .tag_bottom {
+  body main .page02 .about .about_right .about_tag .tag_top,
+  body main .page02 .about .about_right .about_tag .tag_bottom {
     display: flex;
   }
-  body main .page02 .about .about_right .about_tag .tag_top .bnt_gn, body main .page02 .about .about_right .about_tag .tag_top .bnt_wt, body main .page02 .about .about_right .about_tag .tag_bottom .bnt_gn, body main .page02 .about .about_right .about_tag .tag_bottom .bnt_wt {
+  body main .page02 .about .about_right .about_tag .tag_top .bnt_gn,
+  body main .page02 .about .about_right .about_tag .tag_top .bnt_wt,
+  body main .page02 .about .about_right .about_tag .tag_bottom .bnt_gn,
+  body main .page02 .about .about_right .about_tag .tag_bottom .bnt_wt {
     font-size: 12px;
     padding: 9px 10px;
   }
-  body main .page02 .about .about_right .about_tag .tag_top .bnt_gn, body main .page02 .about .about_right .about_tag .tag_bottom .bnt_gn {
+  body main .page02 .about .about_right .about_tag .tag_top .bnt_gn,
+  body main .page02 .about .about_right .about_tag .tag_bottom .bnt_gn {
     padding: 9px 20px;
   }
   body main .page03 {
@@ -948,19 +983,24 @@ body main .page06 .contact_group .contact .message h4 {
     display: block;
     margin: 0;
   }
-  body main .page03 .background .background_left, body main .page03 .background .background_right {
+  body main .page03 .background .background_left,
+  body main .page03 .background .background_right {
     width: 100%;
   }
-  body main .page03 .background .background_left .basic h3, body main .page03 .background .background_right .basic h3 {
+  body main .page03 .background .background_left .basic h3,
+  body main .page03 .background .background_right .basic h3 {
     font-size: 12px;
   }
-  body main .page03 .background .background_left .basic .basic_text ul > li, body main .page03 .background .background_right .basic .basic_text ul > li {
+  body main .page03 .background .background_left .basic .basic_text ul > li,
+  body main .page03 .background .background_right .basic .basic_text ul > li {
     font-size: 12px;
   }
-  body main .page03 .background .background_left .languages h3, body main .page03 .background .background_right .languages h3 {
+  body main .page03 .background .background_left .languages h3,
+  body main .page03 .background .background_right .languages h3 {
     font-size: 12px;
   }
-  body main .page03 .background .background_left .languages .languages_text ul > li, body main .page03 .background .background_right .languages .languages_text ul > li {
+  body main .page03 .background .background_left .languages .languages_text ul > li,
+  body main .page03 .background .background_right .languages .languages_text ul > li {
     font-size: 12px;
   }
   body main .page03 .background .background_right .education h3 {
@@ -1003,37 +1043,67 @@ body main .page06 .contact_group .contact .message h4 {
   body main .page04 .job .job_left {
     width: 100%;
   }
-  body main .page04 .job .job_left .operation h4, body main .page04 .job .job_left .aupair h4 {
+  body main .page04 .job .job_left .operation h4,
+  body main .page04 .job .job_left .aupair h4 {
     font-size: 12px;
   }
-  body main .page04 .job .job_left .operation p, body main .page04 .job .job_left .aupair p {
+  body main .page04 .job .job_left .operation p,
+  body main .page04 .job .job_left .aupair p {
     font-size: 10px;
   }
-  body main .page04 .job .job_left .operation ol > li, body main .page04 .job .job_left .aupair ol > li {
+  body main .page04 .job .job_left .operation ol > li,
+  body main .page04 .job .job_left .aupair ol > li {
     font-size: 12px;
   }
   body main .page04 .job .job_right {
     width: 100%;
   }
-  body main .page04 .job .job_right .webdesign h4, body main .page04 .job .job_right .coordinator h4 {
+  body main .page04 .job .job_right .webdesign h4,
+  body main .page04 .job .job_right .coordinator h4 {
     font-size: 12px;
   }
-  body main .page04 .job .job_right .webdesign p, body main .page04 .job .job_right .coordinator p {
+  body main .page04 .job .job_right .webdesign p,
+  body main .page04 .job .job_right .coordinator p {
     font-size: 10px;
   }
-  body main .page04 .job .job_right .webdesign ol > li, body main .page04 .job .job_right .coordinator ol > li {
+  body main .page04 .job .job_right .webdesign ol > li,
+  body main .page04 .job .job_right .coordinator ol > li {
     font-size: 12px;
   }
   body main .page05 {
     margin: 0;
     height: 100%;
-    margin-left: 35px;
   }
   body main .page05 h2 {
     font-size: 14px;
+    margin-left: 35px;
+  }
+  body main .page05 .project_ex {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+  }
+  body main .page05 .project_ex .ex_left,
+  body main .page05 .project_ex .ex_right {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  body main .page05 .project_ex .ex_left a img,
+  body main .page05 .project_ex .ex_right a img {
+    width: 50%;
+  }
+  body main .page05 .project_ex .ex_left h4,
+  body main .page05 .project_ex .ex_right h4 {
+    font-size: 12px;
+  }
+  body main .page05 .project_ex .ex_left p,
+  body main .page05 .project_ex .ex_right p {
+    font-size: 10px;
   }
   body main .page06 {
     margin: 0;
+    margin-top: 80px;
+    height: 100%;
   }
   body main .page06 h2 {
     font-size: 14px;
@@ -1049,12 +1119,16 @@ body main .page06 .contact_group .contact .message h4 {
     width: 80%;
     font-size: 12px;
   }
-  body main .page06 .contact_group .contact .name input, body main .page06 .contact_group .contact .email input {
+  body main .page06 .contact_group .contact .name input,
+  body main .page06 .contact_group .contact .email input {
     padding: 0;
     height: 40px;
   }
   body main .page06 .contact_group .contact .feedback textarea {
     padding: 0;
+  }
+  body main .page06 .contact_group .contact .message h4 {
+    margin: 50px 0;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1098,7 +1172,20 @@ body main .page06 .contact_group .contact .message h4 {
   body main .page04 .job {
     display: block;
   }
-  body main .page04 .job .job_left, body main .page04 .job .job_right {
+  body main .page04 .job .job_left,
+  body main .page04 .job .job_right {
     width: 100%;
+  }
+  body main .page05 {
+    height: 100%;
+  }
+  body main .page05 .project_ex {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .page05 .project_ex .ex_left,
+  body main .page05 .project_ex .ex_right {
+    padding: 0;
+    padding-bottom: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -32,7 +32,7 @@ body {
     z-index: 2;
     max-height: 0;
     overflow: hidden;
-    transition: .5s; 
+    transition: 0.5s;
     &::after {
       content: "";
       display: block;
@@ -70,7 +70,7 @@ body {
       flex-direction: column;
       align-items: center;
       text-align: center;
-      
+
       h1 {
         letter-spacing: 12px;
         font-size: 70px;
@@ -461,6 +461,33 @@ body {
     .page05 {
       height: 100vh;
       margin: 50px;
+      .project_ex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .ex_left,
+        .ex_right {
+          padding: 120px 20px;
+          text-align: center;
+          a {
+            img {
+              box-shadow: 1px 3px 4px 0px gray;
+              border-radius: 15px;
+              width: 100%;
+            }
+          }
+          h4 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 30px 0 0;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #b9b9b9;
+          }
+        }
+      }
     }
     .page06 {
       height: 100vh;
@@ -546,7 +573,7 @@ body {
 @media (max-width: 768px) {
   body {
     .logo {
-      width:fit-content;
+      width: fit-content;
       margin: 15px;
       img {
         display: inline;
@@ -557,7 +584,8 @@ body {
         background-image: url(../img/mb00.svg);
         background-size: cover;
         letter-spacing: 8px;
-        box-shadow: px 2px 2px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);;
+        box-shadow: px 2px 2px rgba(0, 0, 0, 0.4),
+          0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
         h1 {
           font-size: 28px;
           letter-spacing: 5px;
@@ -568,7 +596,7 @@ body {
       }
       .page01 {
         .content {
-          padding:  40px;
+          padding: 40px;
           h2 {
             font-size: 28px;
             padding-top: 0;
@@ -579,7 +607,8 @@ body {
           .btn {
             margin-top: 30px;
             text-align: left;
-            .btn_about, .btn_works {
+            .btn_about,
+            .btn_works {
               margin: 0;
               h3 {
                 font-size: 12px;
@@ -610,11 +639,13 @@ body {
               }
             }
             .about_tag {
-              .tag_top, .tag_bottom {
+              .tag_top,
+              .tag_bottom {
                 display: flex;
-                .bnt_gn, .bnt_wt {
-                    font-size: 12px;
-                    padding: 9px 10px;
+                .bnt_gn,
+                .bnt_wt {
+                  font-size: 12px;
+                  padding: 9px 10px;
                 }
                 .bnt_gn {
                   padding: 9px 20px;
@@ -631,14 +662,15 @@ body {
         .background {
           display: block;
           margin: 0;
-          .background_left, .background_right {
+          .background_left,
+          .background_right {
             width: 100%;
             .basic {
               h3 {
                 font-size: 12px;
               }
               .basic_text {
-                ul>li {
+                ul > li {
                   font-size: 12px;
                 }
               }
@@ -648,7 +680,7 @@ body {
                 font-size: 12px;
               }
               .languages_text {
-                ul>li {
+                ul > li {
                   font-size: 12px;
                 }
               }
@@ -660,7 +692,7 @@ body {
                 font-size: 12px;
               }
               .education_text {
-                ul>li {
+                ul > li {
                   font-size: 12px;
                 }
               }
@@ -704,28 +736,30 @@ body {
           display: block;
           .job_left {
             width: 100%;
-            .operation, .aupair {
+            .operation,
+            .aupair {
               h4 {
                 font-size: 12px;
               }
               p {
                 font-size: 10px;
               }
-              ol>li {
+              ol > li {
                 font-size: 12px;
               }
             }
           }
           .job_right {
             width: 100%;
-            .webdesign, .coordinator {
+            .webdesign,
+            .coordinator {
               h4 {
                 font-size: 12px;
               }
               p {
                 font-size: 10px;
               }
-              ol>li {
+              ol > li {
                 font-size: 12px;
               }
             }
@@ -735,13 +769,37 @@ body {
       .page05 {
         margin: 0;
         height: 100%;
-        margin-left: 35px;
+
         h2 {
           font-size: 14px;
+          margin-left: 35px;
+        }
+        .project_ex {
+          display: block;
+          text-align: center;
+          margin: 50px 0;
+          .ex_left,
+          .ex_right {
+            padding: 0;
+            padding-bottom: 10px;
+            a {
+              img {
+                width: 50%;
+              }
+            }
+            h4 {
+              font-size: 12px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
         }
       }
       .page06 {
         margin: 0;
+        margin-top: 80px;
+        height: 100%;
         h2 {
           font-size: 14px;
           margin-left: 35px;
@@ -754,7 +812,8 @@ body {
             display: block;
             width: 80%;
             font-size: 12px;
-            .name, .email {
+            .name,
+            .email {
               input {
                 padding: 0;
                 height: 40px;
@@ -763,7 +822,11 @@ body {
             .feedback {
               textarea {
                 padding: 0;
-                
+              }
+            }
+            .message {
+              h4 {
+                margin: 50px 0;
               }
             }
           }
@@ -780,7 +843,7 @@ body {
         background-size: cover;
         h1 {
           font-size: 36px;
-          letter-spacing: 12px;      
+          letter-spacing: 12px;
         }
         p {
           font-size: 14px;
@@ -804,7 +867,7 @@ body {
           .background_right {
             .education {
               .education_text {
-                ul>li {
+                ul > li {
                   width: max-content;
                 }
               }
@@ -817,12 +880,24 @@ body {
         margin: 0 60px;
         .job {
           display: block;
-          .job_left, .job_right {
+          .job_left,
+          .job_right {
             width: 100%;
+          }
+        }
+      }
+      .page05 {
+        height: 100%;
+        .project_ex {
+          display: flex;
+          flex-direction: column;
+          .ex_left,
+          .ex_right {
+            padding: 0;
+            padding-bottom: 10px;
           }
         }
       }
     }
   }
 }
-
