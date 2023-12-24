@@ -909,7 +909,6 @@ body main .page06 .contact_group .contact .message h4 {
     background-image: url(../img/mb00.svg);
     background-size: cover;
     letter-spacing: 8px;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   }
   body main .page00 h1 {
     font-size: 28px;
